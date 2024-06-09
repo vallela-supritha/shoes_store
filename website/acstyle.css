@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainLogo {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.menuLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.menuLink {
+    color: #fff;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.order {
+    margin-bottom: 20px;
+}
+
+.order h2 {
+    margin-bottom: 5px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+    button:active {
+        background-color: #3e8e41;
+    }
+    
+    button, input[type="submit"] {
+        outline: none;
+    }
+    
+    /* Profile Information Form Styles */
+    
+    .profileInfo form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .profileInfo label {
+        margin-bottom: 5px;
+    }
+    
+    .profileInfo input {
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    /* Address Book and Payment Methods Styles */
+    
+    .addressBook, .paymentMethods {
+        margin-top: 20px;
+    }
+    
+    .addressBook, .paymentMethods .card {
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .paymentMethods .card p {
+        margin-bottom: 5px;
+    }
+    
+    /* Order History Styles */
+    
+    .order {
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .order ul li {
+        margin-left: 20px;
+    }
+    
+    

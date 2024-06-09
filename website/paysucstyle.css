@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainLogo {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.menuLinks {
+    display: flex;
+    gap: 20px;
+}
+
+.menuLink {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation h1 {
+    color: #4CAF50;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.confirmation p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.orderSummary, .nextSteps {
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
